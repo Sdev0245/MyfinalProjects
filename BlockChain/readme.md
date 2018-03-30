@@ -18,3 +18,6 @@ struct block
 __SHA256(toString(*prev),sizeof(*prev),NULL),SHA256_DIGEST_LENGTH) //SHA256 that takes source ,size and destination block.__
 In the block chain ,that i have created you can add a new block,check the validity of block(By comparing the hash of current and previous block) 
 and also a dummy tracnsaction can be done
+
+in order to compile use
+g++ -----cpp -lcrypto
