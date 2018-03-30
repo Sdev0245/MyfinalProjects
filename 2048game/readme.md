@@ -8,10 +8,11 @@ void kbhit()
   system("stty raw");
   cin>>ct;
   system("stty cooked");
-}```
-
+}
+```
 where you donot need to press enter after pressing the 'w','s','a','d'.The major logic of the game is the only one function
-````
+
+```
 case 'w':
 					for(int i=0;i<4;i++)
 						for(int j=0;j<4;j++)
